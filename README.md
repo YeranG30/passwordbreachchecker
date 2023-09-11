@@ -3,8 +3,7 @@ This Python script allows users to check if a specific password appears in the R
 Description
 This Python script helps you to find out if your password is vulnerable to brute-force attacks. It does so by checking your password against the RockYou wordlist, which is commonly used in various types of cyber attacks.
 
-Features
-Superhero-themed ASCII art interface
+Features:
 Checks the vulnerability of a password against the RockYou wordlist
 Calculates the time taken for the check
 
