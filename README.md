@@ -1,24 +1,45 @@
 # passwordbreachchecker
-This Python script allows users to check if a specific password appears in the RockYou wordlist, a commonly used list of passwords that were exposed in a data breach that is used by bruteforce apps. 
-Description
-This Python script helps you to find out if your password is vulnerable to brute-force attacks. It does so by checking your password against the RockYou wordlist, which is commonly used in various types of cyber attacks.
+The Password Breach Checker is a Python script designed to assess the security of passwords. It checks a given password against the RockYou wordlist, a compilation of passwords exposed in a data breach and frequently used by brute-force attack tools.
 
-Features:
-Checks the vulnerability of a password against the RockYou wordlist
-Calculates the time taken for the check
+# Installation Steps:
 
-Installation
-- Download the rockyou.txt wordlist and place it in /usr/share/wordlists/.( If it's compressed, unzip it:sudo gunzip /usr/share/wordlists/rockyou.txt.gz)
-Clone this repository:
-- git clone https://github.com/yourusername/yourrepository.git
-Navigate to the directory:
-- cd yourrepository
+Ensure Kali Linux distribution is being used, as it comes with the necessary tools and environment.
+Download and place the rockyou.txt wordlist in /usr/share/wordlists/.
+
+If the wordlist is compressed, decompress it using:
+
+```sudo gunzip /usr/share/wordlists/rockyou.txt.gz```
+
+Clone Repository:
+
+```git clone https://github.com/YeranG30/passwordbreachchecker.git```
+
+Navigate to Directory:
+
+```cd passwordbreachchecker```
 
 Usage
-Run the script using Python 3:
-python3 passwordbreachchecker.py
-Follow the on-screen instructions. Enter the password you want to check, or enter 'q' to quit the application.
+
+```python3 pwdchecker.py```
+
+# Section 1: Project Overview
+
+<img width="879" alt="image" src="https://github.com/YeranG30/passwordbreachchecker/assets/74067706/dbb62eb8-4910-4904-a25e-e77525437175">
+
+The Password Breach Checker is a Python-based tool designed to enhance cybersecurity awareness and practices. It allows users to check if their passwords are part of the RockYou wordlist - a compilation of passwords exposed in past data breaches and often used for brute-force attacks.
+
+# Section 2: Key Features
+Password Vulnerability Check: Cross-references user-inputted passwords against the RockYou wordlist to check for potential vulnerabilities.
+
+Time Efficiency Analysis: Calculates and displays the time taken to search the wordlist, showcasing the script's efficiency.
+
+# Section 3: Development Process
+
+Creating the Password Manager:
+
+
 
 Dependencies
-Python 3.x
-RockYou wordlist
+- Python 3.x
+- RockYou wordlist
+
