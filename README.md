@@ -30,12 +30,10 @@ The Password Breach Checker is a Python-based tool designed to enhance cybersecu
 
 # Section 2: Key Features
 Password Vulnerability Check: Cross-references user-inputted passwords against the RockYou wordlist to check for potential vulnerabilities.
+<img width="543" alt="image" src="https://github.com/YeranG30/passwordbreachchecker/assets/74067706/b213bacb-2750-4690-a952-cd4d025c94fd">
+
 
 Time Efficiency Analysis: Calculates and displays the time taken to search the wordlist, showcasing the script's efficiency.
-
-# Section 3: Development Process
-
-Creating the Password Manager:
 
 
 
